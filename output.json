@@ -1,0 +1,9 @@
+{ "video_score": { "parameter 1": avg_movement_rate, 
+    "parameter 2": total_blink_counts,
+    "dominant_emotion": dominant_emotion,
+    "dominant_emotion_percentage": dominant_emotion_percentage, 
+    "second_dominant_emotion": second_dominant_emotion, 
+    "second_dominant_emotion_percentage": second_dominant_emotion_percentage,
+    "confidence_score": confidence_score }, 
+
+"overall_score": overall_score }
