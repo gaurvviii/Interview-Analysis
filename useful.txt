@@ -1,0 +1,76 @@
+When judging a text, there are several properties beyond grammar that you can consider to evaluate its quality and effectiveness:
+
+1. **Clarity**: Ensure the text is clear and easy to understand. This involves checking for ambiguous phrases and ensuring the message is straightforward.
+
+2. **Coherence**: Look at how well the ideas flow together. Each sentence and paragraph should logically connect to the next.
+
+3. **Consistency**: Check for consistent use of tense, point of view, and terminology throughout the text.
+
+4. **Tone**: Evaluate whether the tone is appropriate for the intended audience and purpose. For example, a formal tone is suitable for academic writing, while a conversational tone works well for blog posts.
+
+5. **Style**: Consider the writing style, including sentence structure and word choice. A varied sentence structure and rich vocabulary can make the text more engaging.
+
+6. **Punctuation**: Proper punctuation helps clarify meaning and improves readability.
+
+7. **Spelling**: Correct spelling is essential for professionalism and credibility.
+
+8. **Content Accuracy**: Ensure the information presented is accurate and well-researched.
+
+9. **Relevance**: The content should be relevant to the topic and audience, avoiding unnecessary digressions.
+
+10. **Engagement**: Assess how engaging the text is. Does it capture and hold the reader's attention?
+
+11. **Repetition**: Avoid unnecessary repetition of words or phrases, as it can make the text redundant and difficult to read.
+
+These properties can help you comprehensively judge the quality of a text. Do you have a specific text in mind that you want to evaluate?
+
+Source: Conversation with Copilot, 8/26/2024
+(1) Sentence Checker | Grammarly. https://www.grammarly.com/sentence-checker.
+(2) Free Grammar Checker (Online Editor). https://www.grammarcheck.net/editor/.
+(3) Some General Criteria for Evaluating Texts - UNSW Current Students. https://www.student.unsw.edu.au/some-general-criteria-evaluating-texts.
+
+
+==========================================
+
+
+Here's a detailed prompt you can use for the AWS Bedrock API to evaluate a text's quality based on the mentioned features, with examples to guide the model:
+
+---
+
+**Prompt:**
+
+"Evaluate the quality of the following text on a scale of 1 to 10 based on the following criteria. Provide a score for each criterion and a brief explanation for the score:
+
+1. **Clarity**: Assess how clearly the text conveys its intended meaning. Consider precision in word choice and proper sentence structure. 
+   - *Example*: A text like "The cat sat on the mat" is clear and straightforward, while "The feline creature rested atop the woven surface" is more complex but still clear. If the text is vague or confusing, it should receive a lower score.
+
+2. **Coherence**: Evaluate the logical flow and unity of the text. Check if the sentences and ideas are well-connected and if the paragraph sticks to a single main idea.
+   - *Example*: A coherent paragraph might smoothly transition from one idea to the next, while a disjointed one may jump between unrelated topics.
+
+3. **Conciseness**: Judge the text's efficiency in conveying its message without unnecessary words or repetition.
+   - *Example*: "The quick brown fox jumps over the lazy dog" is concise, while "The quick and agile brown fox swiftly jumps over the lazy and sluggish dog" is more verbose and could be considered less concise.
+
+4. **Variety**: Look for variation in sentence structure and vocabulary. A mix of simple and complex sentences, along with diverse word choices, should be rated higher.
+   - *Example*: A text that varies sentence length and structure, like "The sun set. The sky turned orange, then deep purple," shows variety, whereas repetitive or monotonous sentence structures should score lower.
+
+5. **Tone and Style**: Consider the consistency and appropriateness of the tone and style for the intended audience and purpose.
+   - *Example*: A formal report should maintain a formal tone throughout, while a casual blog post may use a conversational style. Inconsistencies, like mixing formal and informal language inappropriately, should lower the score.
+
+6. **Grammar and Mechanics**: Rate the correctness of grammar, punctuation, and spelling.
+   - *Example*: A well-written text without errors should receive a high score, while texts with frequent mistakes, like "The boy run fast. He don't stop," should be rated lower.
+
+7. **Engagement**: Judge how engaging and interesting the text is. Does it capture and hold the reader's attention?
+   - *Example*: A text with vivid imagery or compelling arguments should score higher than a dull or monotonous one.
+
+**Text to evaluate**: [Insert text here]
+
+Provide a score between 1 and 10 for each feature, along with a brief explanation for each score. Finally, give an overall score for the text, averaging the individual scores."
+
+---
+
+This prompt is designed to guide the model to evaluate the text comprehensively based on each quality feature, ensuring consistent and accurate scoring.
+
+
+
+
+
